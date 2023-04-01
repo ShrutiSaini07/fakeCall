@@ -13,7 +13,6 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity {
 
     EditText eDelay;
-    TextView txtDelay, txtContactname;
     Button btnContact;
 
     String delay = "0";
@@ -24,8 +23,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         eDelay = findViewById(R.id.eDelay);
-        txtDelay = findViewById(R.id.txtDelay);
-        txtContactname = findViewById(R.id.txtContactname);
         btnContact = findViewById(R.id.btnContact);
 
 
